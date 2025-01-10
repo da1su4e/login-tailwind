@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100 text-white">
+    <!-- <header class="bg-blue-600 text-white p-4 z-40">
+        <h1 class="text-2xl font-bold scale-75 translate-x-4 skew-y-3 mt-8">Tailwind css test</h1>
+        <p class="text-sm">A simple design</p>
+    </header> -->
+    <main class="bg-[url('https://static.vecteezy.com/system/resources/previews/001/882/528/non_2x/beautiful-landscape-pine-forest-with-mesmerizing-mountain-views-free-vector.jpg')] bg-cover bg-center h-screen w-full ">
+        <!-- <section class="mb-6">
+            <h2 class="text-xl font-semibold">About Tailwind</h2>
+            <p class="text-gray-700 hover:scale-75 transition-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis fuga dolor alias nobis autem, reprehenderit inventore aut. Quod cumque ad consectetur corrupti non velit nam voluptates reprehenderit quibusdam ipsa?</p>
+        </section>
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold mb-2">Test</h2>
+            <ul class="list-disc list-inside">
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </section> -->
+        <section class="grid place-items-center h-screen bg-fixed">
+            <div class="backdrop-blur-sm border-solid border-2 border-white px-12 py-16 rounded-3xl flex flex-col gap-10 hover:scale-110 transition-all ease-in-out">
+                <h2 class="text-center text-white text-3xl font-medium">Login</h2>
+                <form class="flex items-center gap-8 flex-col">
+                    <div class="form__input flex items-center gap-5 border-b border-white outline-none placeholder-xs p-2 focus-within:border-t focus-within:border-l focus-within:border-r focus-within:border-white focus-within:ring-0 focus-within:rounded-3xl transition-all ease-in-out">
+                        <input
+                            type="email"
+                            class="bg-inherit w-full outline-none placeholder-white placeholder-xs"
+                            placeholder="Email"
+                            required
+                        />
+                        <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="form__input flex items-center gap-5 border-b border-white outline-none placeholder-xs p-2 focus-within:border-t focus-within:border-l focus-within:border-r focus-within:border-white focus-within:ring-0 focus-within:rounded-3xl transition-all ease-in-out">
+                        <input
+                            type="password"
+                            class="bg-inherit w-full outline-none placeholder-white placeholder-xs"
+                            placeholder="Password"
+                            required
+                        />
+                        <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                    </div>
+                    <button class="w-full font-semibold rounded-full p-2 mt-2 border border-white hover:bg-white hover:text-black transition-all ease-in-out duration-500">Log In</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
