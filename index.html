@@ -10,7 +10,7 @@
 <body class="text-white">
     <main class="bg-[url('img/background.jpg')] bg-cover bg-center h-screen w-full ">
         <section class="grid place-items-center h-screen bg-fixed">
-            <div class="backdrop-blur-sm border-solid border-2 border-white px-12 py-16 rounded-3xl flex flex-col gap-10 hover:scale-110 transition-all ease-in-out">
+            <div class="backdrop-blur-sm border-solid border-2 border-white px-12 py-16 rounded-3xl flex flex-col gap-10">
                 <h2 class="text-center text-white text-3xl font-medium">Login</h2>
                 <form class="flex items-center gap-8 flex-col">
                     <div class="form__input flex items-center gap-5 border-b border-white outline-none placeholder-xs p-2 focus-within:border-t focus-within:border-l focus-within:border-r focus-within:border-white focus-within:ring-0 focus-within:rounded-3xl transition-all ease-in-out">
@@ -28,13 +28,15 @@
                             class="bg-inherit w-full outline-none placeholder-white placeholder-xs"
                             placeholder="Password"
                             required
+                            id="password-input"
                         />
-                        <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                        <button type="button" id="show-password"><i class="fa-solid fa-lock" style="color: #ffffff;"></i></button>
                     </div>
                     <button class="w-full font-semibold rounded-full p-2 mt-2 border border-white hover:bg-white hover:text-black transition-all ease-in-out duration-500">Log In</button>
                 </form>
             </div>
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
